@@ -14,4 +14,5 @@ rs.on("data", (dataChunk) => {
 */
 
 // pipe is a method that is used to read and write data
+// this is more effecient than the above code
 rs.pipe(ws);
