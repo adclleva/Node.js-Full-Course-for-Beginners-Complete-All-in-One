@@ -1,0 +1,7 @@
+20231029	18:56:11	fdf99f97-781f-491b-bbd1-3bd5500d15ff	Log event emitted!
+20231029	18:56:21	1f9d40f3-13dc-4869-a490-20d01bd85fba	Log event emitted!
+20231029	18:56:50	25d12bdf-4e46-4412-a3d4-b5903e2bfc45	Log event emitted!
+20231029	18:58:45	c39b67cb-16c4-4771-a4ff-cacfc7a09088	Log event emitted!
+20231029	18:58:50	dbf5d09a-3b2b-4866-a9a1-8d9fb4bd3193	Log event emitted!
+20231029	18:59:20	825d7f85-86b4-40c4-bbca-545b89433b6b	Log event emitted!	test
+20231029	18:59:36	ee149a9a-fc1c-4f6c-b8bd-6dfb048d1e19	Log event emitted!	For the second parameter!
