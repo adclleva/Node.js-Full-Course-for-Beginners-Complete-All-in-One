@@ -49,12 +49,12 @@ app.use(express.json());
 // the / is the default route
 // app.use("/", express.static(path.join(__dirname, "public"))); this is the same as the line below
 app.use(express.static(path.join(__dirname, "public")));
-
-// these app.use calls here are route handlers
-app.use("/", require("./routes/root"));
-
 // this will allow us to serve files from the /subdir route like using the css file in the index.html file
 app.use("/subdir", express.static(path.join(__dirname, "public")));
+
+// routes
+// these app.use calls here are route handlers
+app.use("/", require("./routes/root"));
 
 // this will route all requests to the /subdir route handler
 app.use("/subdir", require("./routes/subdir"));
