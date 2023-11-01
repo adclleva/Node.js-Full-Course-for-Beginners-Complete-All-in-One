@@ -39,3 +39,9 @@
 20231031	20:12:03	f6b85155-a056-417f-8d63-bb8892825212	GET	undefined	/css/style.css
 20231031	20:12:03	5250e3be-c041-4664-adc0-4c59e5e16d7d	GET	undefined	/dave
 20231031	20:12:03	a5edeb30-b6e7-43b8-b3da-c413bf31bbb1	GET	undefined	/css/style.css
+20231031	20:31:16	a1ec4535-f782-46a4-80a9-1bcf8d296a0a	GET	undefined	/dave
+20231031	20:31:16	4f98a4c8-b285-41dd-bbc2-0b865688aef5	GET	undefined	/css/style.css
+20231031	20:31:25	d10d3a92-986a-4c3e-a882-036348541c9e	GET	undefined	/subdir
+20231031	20:31:25	ecd9f2cb-a230-410d-b072-a244e50701dc	GET	undefined	/css/style.css
+20231031	20:31:35	5776d20f-f1a6-42b3-9196-b9254de898cb	GET	undefined	/subdir
+20231031	20:31:35	e865cf5f-71f5-46f7-8e70-43c09fccd3cf	GET	undefined	/css/style.css
