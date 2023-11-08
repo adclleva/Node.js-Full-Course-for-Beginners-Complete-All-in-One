@@ -1,0 +1,2 @@
+20231031	20:08:48	257b1ffc-cc45-4b95-8319-b372e103a5fd	Error: Not allowed by CORS
+20231101	15:40:39	e1d52071-6b39-46ba-bb28-8db6d8077206	ReferenceError: employees is not defined
