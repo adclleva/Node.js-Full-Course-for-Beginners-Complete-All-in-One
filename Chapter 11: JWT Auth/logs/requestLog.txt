@@ -169,3 +169,7 @@
 20231115	20:36:59	f60f1c8b-6b64-4688-904c-2c327df2b226	GET	undefined	/logout
 20231115	20:37:02	7f7363e5-871a-4150-b3c0-6f6b9ed5a549	GET	undefined	/refresh
 20231115	20:37:30	949e504b-be9e-4240-81ea-9fc5e4db6fbc	POST	undefined	/auth
+20231115	21:00:22	4a4e3936-4305-4e71-89aa-839db7bbbbea	POST	undefined	/auth
+20231115	21:00:24	be056005-e728-4b37-b59f-b5c46b821204	GET	undefined	/refresh
+20231115	21:00:27	7c6aeadc-4e61-4a3c-805e-f1e21d867dc4	GET	undefined	/logout
+20231115	21:00:30	1012e884-416b-4c84-b6fb-de0b71d63ab9	GET	undefined	/refresh

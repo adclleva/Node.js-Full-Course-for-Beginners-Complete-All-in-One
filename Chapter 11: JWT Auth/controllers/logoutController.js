@@ -25,7 +25,7 @@ const handleLogout = async (req, res) => {
   const foundUser = usersDB.users.find((user) => user.refreshToken === refreshToken);
 
   if (!foundUser) {
-    res.clearCookie("jwt", { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 });
+    res.clearCookie("jwt", { httpOnly: true, sameSite: "None", secure: true, maxAge: 1000 * 60 * 60 * 24 });
     return res.sendStatus(204); // No content
   }
 
@@ -38,7 +38,7 @@ const handleLogout = async (req, res) => {
   // this updates the JSON file
   await fsPromises.writeFile(path.join(__dirname, "../model/users.json"), JSON.stringify(usersDB.users));
 
-  res.clearCookie("jwt", { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 }); // secure: true in production -- only serves on https
+  res.clearCookie("jwt", { httpOnly: true, sameSite: "None", secure: true, maxAge: 1000 * 60 * 60 * 24 }); // secure: true in production -- only serves on https
   res.sendStatus(204); // No Content
 };
 

@@ -62,7 +62,7 @@ const handleLogin = async (req, res) => {
     await fsPromises.writeFile(path.join(__dirname, "../model/users.json"), JSON.stringify(usersDB.users));
 
     // we save the refresh token in a cookie as a cookie as httpOnly so that it cannot be accessed by javascript
-    res.cookie("jwt", refreshToken, { httpOnly: true, maxAge: 1000 * 60 * 60 * 24 });
+    res.cookie("jwt", refreshToken, { httpOnly: true, sameSite: "None", secure: true, maxAge: 1000 * 60 * 60 * 24 });
 
     // its important to save the accessToken in the client in memory as send it back to the client
     // so the frontend developer can get access to it
