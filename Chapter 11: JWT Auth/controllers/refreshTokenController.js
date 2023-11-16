@@ -12,7 +12,7 @@ const handleRefreshToken = async (req, res) => {
   const cookies = req.cookies;
 
   if (!cookies?.jwt) {
-    return res.status(401); // Unauthorized
+    return res.sendStatus(401); // Unauthorized
   }
 
   console.log({ jwt: cookies.jwt });

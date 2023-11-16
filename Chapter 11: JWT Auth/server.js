@@ -47,6 +47,8 @@ app.use("/auth", require("./routes/auth"));
 
 app.use("/refresh", require("./routes/refresh"));
 
+app.use("/logout", require("./routes/logout"));
+
 // anything below this line will require authentication
 // anything above this line will not require authentication
 // since this file runs from top to bottom
